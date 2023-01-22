@@ -1,0 +1,7 @@
+{
+  "name": "run_node_in_docker",
+  "version": "0.0.1",
+  "dependencies": {
+    "processenv": "^3.0.9"
+  }
+}
