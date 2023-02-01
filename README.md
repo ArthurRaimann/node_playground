@@ -1,6 +1,6 @@
 # node_playground
 
-Playground project to test and experiment Node.js features
+Playground project to test and experiment with Node.js and Next.js
 
 ## Content
 
