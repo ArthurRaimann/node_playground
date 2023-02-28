@@ -1,0 +1,16 @@
+POST http://localhost:4026/user HTTP/1.1
+content-type: application/json
+
+{
+  "name":"Boas"
+}
+
+###
+
+GET http://localhost:4026/health HTTP/1.1
+content-type: application/json
+
+###
+
+GET http://localhost:4026/allusers HTTP/1.1
+content-type: application/json

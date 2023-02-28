@@ -1,0 +1,24 @@
+version: '3'
+services:
+  app:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    container_name: docker-node-tut
+    restart: always
+    ports:
+      - 4026:8080
+    command: bash /usr/src/app/start.sh
+    env_file: .env
+    links:
+      - 'mongodb:database'
+  mongodb:
+    image: mongo:latest
+    restart: always
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb:/data/db
+
+volumes:
+  mongodb:
