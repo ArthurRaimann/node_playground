@@ -9,3 +9,4 @@ Playground project to test and experiment with Node.js and Next.js
 - __nextjs-blog__: Was created according to the Next.js tutorial.
 - __nodeJs-MongoDB-Docker__: Dockerized App with Node.js and Mongo as skeleton.
 - __mongodb-in-node__: Create a MongoDB instance and connect to it + create local docker container to play around.
+-__Docker_Compose_with_Node_Mongo_Running__: Template that connects a Node.js application with a MongoDB instance in a Docker container.
